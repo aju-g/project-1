@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Delicious handmade momos. Order veg and non-veg momos online.">
+    <title>Magic Momo</title>
+    <link rel="icon" href="momo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+   
+    <header class="navbar-header">
+        <div class="navbar-container">
+         
+            <div class="site-branding">
+                <h1>Magic Momo</h1>
+               
+            </div>
+
+        
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#order">Order Now</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+ 
+    <main class="container">
+<marquee> <p><em>Fresh - Hot - Handmade Momos</em></p></marquee>
+       
+        <section id="menu">
+            <h2>Our Menu</h2>
+
+            <div class="card-grid">
+                <article class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkpon2-OM4lE9Q1kyJ59N0AKW7UqPVKHKHKQ&s" alt="Veg Momo">
+                    <h3>Veg Momos</h3>
+                    <p>Steamed momos filled with fresh vegetables.</p>
+                    <p class="price">Rs.120</p>
+                </article>
+                <article class="card">
+                    <img src="https://static.india.com/wp-content/uploads/2024/12/FEATURE-2024-12-15T174448.090.jpg?impolicy=Medium_Widthonly&w=350&h=263" alt="Chicken Momo">
+                    <h3>Chicken Momos</h3>
+                    <p>Juicy chicken momos with special spices.</p>
+                    <p class="price">Rs.150</p>
+                </article>
+                <article class="card">
+                    <img src="https://static.toiimg.com/thumb/53281477.cms?imgsize=1884587&width=800&height=800" alt="Fried Momo">
+                    <h3>Fried Momos</h3>
+                    <p>Crispy fried momos served with spicy sauce.</p>
+                    <p class="price">Rs.160</p>
+                </article>
+                <article class="card">
+                    <img src="https://cdn.dotpe.in/longtail/store-items/7572019/XxRo35C4.jpeg" alt="Paneer Momo">
+                    <h3>Paneer Momos</h3>
+                    <p>Soft paneer filling with Indian spices.</p>
+                    <p class="price">Rs.140</p>
+                </article>
+                <article class="card">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2025/3/493809256/OK/SA/MS/227992386/frozen-chicken-cheese-momos-500x500.jpg" alt="Cheese Momo">
+                    <h3>Cheese Momos</h3>
+                    <p>Cheesy momos loved by kids.</p>
+                    <p class="price">Rs.170</p>
+                </article>
+                <article class="card">
+                    <img src="https://b.zmtcdn.com/data/dish_photos/d84/0813418abd1e678348349a36e25b4d84.png" alt="Honey Momo">
+                    <h3>Honey Chilli Momos</h3>
+                    <p>Momos served in hot spicy with honey.</p>
+                    <p class="price">Rs.180</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>
+                <strong>Magic Momo</strong> serves authentic Himalayan-style momos
+                using fresh ingredients and traditional recipes.
+            </p>
+                   <p>Momo is a type of steamed filled dumpling in Tibetan and Nepali cuisine that is also popular in neighbouring Bhutan, Bangladesh and India. The majority of Tibetan momo is half-moon in shape like jiaozi, while Nepali momo is normally round like baozi. Momo is usually served with a sauce known as achar influenced by the spices and herbs used within many South Asian cuisines. It can also be used in soup, as in jhol momo and mokthuk.        Momo is a type of steamed filled dumpling in Tibetan and Nepali cuisine that is also popular in neighbouring Bhutan, Bangladesh and India. The majority of Tibetan momo is half-moon in shape like jiaozi, while Nepali momo is normally round like baozi. Momo is usually served with a sauce known as achar influenced by the spices and herbs used within many South Asian cuisines. It can also be used in soup, as in jhol momo and mokthuk.</p>
+        </section>
+
+      
+        <section id="order">
+            <h2>Order Momos</h2>
+            <form class="order-form">
+                <p>
+                    Customer Name:
+                    <input type="text" placeholder="Enter your name" required>
+                </p>
+                <p>
+                    Email:
+                    <input type="email" placeholder="Enter your email" required>
+                </p>
+                <p>
+                    Mobile Number:
+                    <input type="tel" placeholder="Enter mobile number" required>
+                </p>
+                <p>
+                    Select Momo Type:
+                    <select required>
+                        <option disabled selected hidden>Choose momo</option>
+                        <option>Veg Momo</option>
+                        <option>Chicken Momo</option>
+                        <option>Paneer Momo</option>
+                        <option>Fried Momo</option>
+                        <option>Cheese Momos</option>
+                        <option>Soup Momos</option>
+                    </select>
+                </p>
+                <p>
+                    Quantity:
+                    <input type="number" min="1" placeholder="Enter quantity" required>
+                </p>
+               <p>
+    Payment Method:
+    <label><input type="radio" name="payment" value="card" required>Card</label>
+    <label><input type="radio" name="payment" value="upi">UPI</label>
+    <label><input type="radio" name="payment" value="cash">Cash</label>
+</p>
+
+<p>
+    Extra Add-ons:
+    <label><input type="checkbox" name="addon" value="sauce">Sauce</label>
+    <label><input type="checkbox" name="addon" value="mayonnaise">Mayonnaise</label>
+    <label><input type="checkbox" name="addon" value="drink">SoftDrink</label>
+</p>
+
+                <p>
+                    Delivery Address:
+                    <textarea placeholder="Enter delivery address" required></textarea>
+                </p>
+                <p>
+                    Feedback / Instructions:
+                    <textarea placeholder="Additional instructions"></textarea>
+                </p>
+                <p>
+                    <button class="btn primary">Place Order</button>
+                    <button type="reset" class="btn secondary">Cancel</button>
+                </p>
+            </form>
+        </section>
+    </main>
+  
+    <footer id="contact" class="site-footer">
+        <p>Contact: magicmomo@mail.com</p>
+        <p>&copy; 2025 Magic Momo. All rights reserved.</p>
+        <p>Made with &lt;3 for momo lovers</p>
+    </footer>
+
+</body>
+</html>
